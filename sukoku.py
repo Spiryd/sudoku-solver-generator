@@ -3,6 +3,15 @@ import numpy as np
 import random
 
 def find_indices(list_to_check, item_to_find):
+    """searchs for items in a list
+
+    Args:
+        list_to_check (list): list to search
+        item_to_find (any): item to be found in a list
+
+    Returns:
+        list: idnexis of found items
+    """
     indices = []
     for idx, value in enumerate(list_to_check):
         if value == item_to_find:
