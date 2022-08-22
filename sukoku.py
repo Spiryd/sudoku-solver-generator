@@ -19,7 +19,7 @@ def find_indices(list_to_check, item_to_find):
     return indices
 
 def sudoku(nnums = 81):
-    random.seed(1)
+    #random.seed(1)
     board = [[0 for i in range(9)] for j in range(9)]
     #print(board)
     #print(shadow_board)
